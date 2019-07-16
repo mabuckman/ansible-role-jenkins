@@ -14,7 +14,7 @@
     - include_tasks: java-8.yml
 
   roles:
-    - geerlingguy.java
+    - ansible-role-java
     - geerlingguy.jenkins
 
   post_tasks:
